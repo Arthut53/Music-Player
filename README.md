@@ -1,4 +1,4 @@
-<h3 align="center"> Player de Música Funcional
+<h1 align="center"> Player de Música Funcional
 
 <br>
 <img src="./.github/Capturar.PNG/">
@@ -16,7 +16,7 @@ Um player de música funcional que possui músicas pré definidas da banda Guns 
 
 
 </a><b><h3> Sweet Child O' Mine</h3>
-<a href="https://www.youtube.com/watch?v=1w7OgIMMRc4">Link</a>
+<a href="https://www.youtube.com/watch?v=1w7OgIMMRc4" target="_blank">Link</a>
 
 <br>
 
@@ -27,7 +27,7 @@ Welcome To the Jungle</h3></b>
 <br>
 
 
-<a href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg">Link</a>
+<a href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg" target="_blank">Link</a>
 
 
 
@@ -36,7 +36,7 @@ Welcome To the Jungle</h3></b>
 <br>
 
 
-<a href="https://www.youtube.com/watch?v=6nhIdHpzHxM">Link</a>
+<a href="https://www.youtube.com/watch?v=6nhIdHpzHxM" target="_blank">Link</a>
 <br>
 
 
