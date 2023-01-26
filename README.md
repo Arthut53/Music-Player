@@ -15,23 +15,28 @@ Um player de música funcional que possui músicas pré definidas da banda Guns 
 ## Músicas utilizadas
 
 
-<a href="https://www.youtube.com/watch?v=1w7OgIMMRc4"></a><b><h3> Sweet Child O' Mine</h3>
+</a><b><h3> Sweet Child O' Mine</h3>
+<a href="https://www.youtube.com/watch?v=1w7OgIMMRc4">Link</a>
 
 <br>
 
-<a href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg"><h3><b>
-Welcome To the Jungle</a></h3></b>
+<br>
+<h3><b>
+Welcome To the Jungle</h3></b>
 
 <br>
 
 
+<a href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg">Link</a>
 
-<a href="https://www.youtube.com/watch?v=6nhIdHpzHxM">
 
 
-<h3><b>My Michelle</a>
+<h3><b>My Michelle
 </h3></b>
+<br>
 
+
+<a href="https://www.youtube.com/watch?v=6nhIdHpzHxM">Link</a>
 <br>
 
 
