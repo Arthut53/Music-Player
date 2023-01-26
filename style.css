@@ -1,11 +1,11 @@
 .black{
---background:url(./assets/bigblack.png);
+--background:url('./assets/bigblack.png');
 --text-color:white;
 --button-background:url('./assets/moon.svg');
 }
 
 .white{
---background:url(./assets/bigw.png);
+--background:url('./assets/bigw.png');
 --text-color:white;
 --button-background:url('./assets/sun.svg');
 }
