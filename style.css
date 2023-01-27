@@ -20,7 +20,7 @@ color: var(--text-color);
 background-repeat: no-repeat;
 height: 100vh;
 width: 100vw;
-background-size: 100vw;
+
 
 
 }
@@ -509,14 +509,14 @@ color:#641dc1;
 
 
 @media (min-width: 1500px){
-    .black{ --bg-url:url('./assets/bigblack.png'); 
+    .black{ --background:url('./assets/mobileBlack.jpg'); }
+     
+    .light{
+    --background:url('./assets/mobileWhite.jpg');
     
-    }}
-
-@media (min-height: 1500px){
-    .black{ --bg-url:url('./assets/bigblack.png'); 
+    }
     
-    }}
+    }
 
 
     .video{
