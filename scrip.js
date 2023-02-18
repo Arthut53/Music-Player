@@ -315,3 +315,50 @@ audio.play()
 
 
 }
+
+const tv =document.querySelector('.TV')
+
+tv.addEventListener('click',video)
+
+function video(){
+
+const player2= document.querySelector('.player-2')
+
+
+const player1 = document.querySelector('.player-1')
+
+const video=document.querySelector('.clip')
+
+const container=document.querySelector('.container')
+
+
+player1.style.display="none"
+
+player2.style.display="flex"
+
+video.style.display ="flex"
+
+video.style.justifyContent="center"
+
+video.style.alignItems="center"
+
+container.style.flexDirection="row"
+
+}
+
+
+
+const seta = document.querySelector('.seta')
+
+seta.addEventListener('click',voltar)
+
+ function voltar  (){
+    
+    
+    document.location.reload(true);
+   
+ }
+
+
+
+ 
