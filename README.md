@@ -15,14 +15,14 @@ Um player de música funcional que possui músicas pré definidas da banda Guns 
 ## Músicas utilizadas
 
 
-</a><b><h3> Sweet Child O' Mine</h3>
+</a><b><h3> Sweet Child O' Mine --Guns N'Roses</h3>
 <a href="https://www.youtube.com/watch?v=1w7OgIMMRc4" target="_blank">Link</a>
 
 <br>
 
 <br>
 <h3><b>
-Welcome To the Jungle</h3></b>
+Welcome To the Jungle -- Guns N' Roses</h3></b>
 
 <br>
 
@@ -31,7 +31,7 @@ Welcome To the Jungle</h3></b>
 
 
 
-<h3><b>My Michelle
+<h3><b>My Michelle -- Guns N' Roses
 </h3></b>
 <br>
 
@@ -56,6 +56,6 @@ Welcome To the Jungle</h3></b>
 <li>Mais Músicas a serem implementadas no projeto</li>
 <br>
 
-<li> Um modo de vídeo onde o usuário poderá visualizar o videoclipe oficial da música que será reproduzida</li>
+
 
 </ul>
