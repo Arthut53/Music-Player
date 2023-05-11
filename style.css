@@ -1,0 +1,648 @@
+.black{
+--background:url('./assets/bigblack.png');
+--text-color:white;
+--button-background:url('./assets/moon.svg');
+}
+
+.white{
+--background:url('./assets/bigw.png');
+--text-color:white;
+--button-background:url('./assets/sun.svg');
+}
+
+
+
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+background: var(--background);
+color: var(--text-color);
+background-repeat: no-repeat;
+
+flex-wrap: wrap;
+min-height: 100vh;
+background-size: cover;
+box-sizing: border-box;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+    
+    .container{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    
+    
+    }
+    
+    .player-1 {
+    background: rgba(42, 33, 65, 1);
+    border-radius: 20px;
+    width: 256px;
+    height: 490px;
+    margin: 10px;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+   
+    }
+    
+    .player-2{
+    margin: 10px;
+    width: 365px;
+    height: 220PX;
+    background: rgba(42, 33, 65, 1);
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    overflow-y: scroll;
+    padding:10px ;
+}
+    
+    .player-3{
+  
+    width:100px ;
+    width: 357.71px;
+    height: 220px;
+    margin: 10px;
+    background: rgba(42, 33, 65, 1);
+    border-radius: 20px;
+    display:flex;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    }
+    
+    #second{
+    display: flex;
+    flex-direction:column;
+    
+    
+    
+    }
+
+    #capa #imagem{
+        width: 189.66px;
+        height: 189.66px;
+        margin: 18px auto;
+        border-radius: 20px;
+        display: flex;  
+    }
+
+
+    #capa{
+        display: flex; 
+        align-items: center;
+        flex-direction:column;
+
+
+    }
+
+    .title{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center ;
+
+
+
+    }
+
+    .title :nth-child(1)  {
+        padding-left:25px;
+        padding-right: 25px;
+        margin: auto;
+       
+        font-size: 20px;
+    }
+
+  
+.butao:hover{
+
+background-color: rgba(192, 187, 207,0.09);
+transition-duration: .3s;
+border-radius: 50%;
+height:40px ;
+width: 40px;
+
+}
+
+
+
+
+.butao{
+border:none;
+height:40px ;
+width: 40px;
+border-radius: 50%;
+background:url(./assets/play.svg) no-repeat rgba(42, 33, 65, 1) ;
+background-position: center;
+}
+
+
+.button{
+    border:none;
+    height:40px ;
+    width: 40px;
+    background:url(./assets/pause.svg) no-repeat rgba(42, 33, 65, 1) ;
+    background-position: center;
+    border-radius: 50%;
+    background-size:18px;
+    
+
+
+}
+
+
+
+.butao:hover{
+ background-color: rgba(192, 187, 207,0.09);
+transition-duration: .3s;
+border-radius: 50%;
+height:40px ;
+width: 40px;
+
+}
+
+.play{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:1rem;
+}
+
+.back{
+border:none;
+width: 40px;
+height: 40px;
+background:url('./assets/back.svg') rgba(42, 33, 65, 1) no-repeat center;
+}
+
+.back:hover{
+    background-color: rgba(192, 187, 207,0.09);
+    transition-duration: .3s;
+    border-radius: 50%;
+    height:40px ;
+    width: 40px;
+    
+
+}
+
+.back:active{
+
+background-color: rgba(192, 187, 207,0.4);
+    transition:background .5s;
+    border-radius: 50%;
+   
+}
+
+
+.button:active{
+    background-color: rgba(192, 187, 207,0.4);
+    transition:background .5s;
+    border-radius: 50%;
+
+}
+
+.butao:active{
+
+    background-color: rgba(192, 187, 207,0.4);
+    transition:background .5s;
+    border-radius: 50%;
+}
+
+
+.skip{
+
+    border:none;
+    width: 40px;
+    height: 40px;
+    background:url('./assets/skip.svg') rgba(42, 33, 65, 1) no-repeat center;
+
+}
+
+.skip:hover{
+    background-color: rgba(192, 187, 207,0.09);
+    transition-duration: .3s;
+    border-radius: 50%;
+    height:40px ;
+    width: 40px;
+    
+}
+
+.skip:active{
+
+    background-color: rgba(192, 187, 207,0.4);
+        transition:background .5s;
+        border-radius: 50%;
+       
+    }
+
+
+    #audio {
+        background-color:rgba(42, 33, 65, 1);
+        margin: 20px;
+        height: 70px;
+        width: 180px;
+
+    }
+
+    .light{
+margin: auto auto 10px auto;
+border: none;
+border-radius: 20px;
+background-image: var(--button-background);
+background-repeat: no-repeat;
+height: 30px;
+width: 30px;
+background-position: center;
+transition: .4s ;
+
+
+
+    }
+
+
+
+.music-1{
+
+   
+    width: auto;
+    height:  60px;
+
+border-radius: 20px;
+margin: 5px;
+
+display: flex;
+gap:3vw;
+align-items:center;
+align-items:center;
+justify-content: space-between;
+}
+
+
+.music-2{
+   
+    width: auto;
+    height:  60px;
+
+border-radius: 20px;
+margin: 5px;
+
+display: flex;
+
+align-items:center;
+align-items:center;
+justify-content: space-between;
+
+}
+
+
+.music-3{
+    
+  
+    width: auto;
+    height:  60px;
+
+border-radius: 20px;
+margin: 5px;
+
+display: flex;
+
+align-items:center;
+justify-content: space-between;
+    
+
+}
+
+.music-4{
+
+    margin: 5px;
+
+      
+        width: auto;
+        height:  60px;
+    
+    border-radius: 20px;
+    
+}
+
+
+.capa{
+height: 60px;
+width: 60px;
+border-radius: 15px;
+}
+
+
+
+
+.heart-outline {
+    font-size: 20px;
+    width: 30px;
+height:30px;
+transition: .4s;
+
+  }
+
+
+.heart{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border-radius:50%;
+width: 30px;
+height:30px;
+    background-position: center;
+
+}
+
+
+
+.heart-inline {
+    font-size: 20px;
+    width: 30px;
+height:30px;
+transition: .4s;
+
+  }
+
+  .heart1{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border-radius:50%;
+width: 30px;
+height:30px;
+    background-position: center;
+
+}
+
+
+.heart-neutron {
+    font-size: 20px;
+    width: 30px;
+height:30px;
+transition: .4s;
+
+  }
+
+  .heart3{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border-radius:50%;
+width: 30px;
+height:30px;
+    background-position: center;
+
+}
+
+
+#weight{
+    float: right;
+width: 210px;
+appearance: none;
+-webkit-appearance:none ;
+border-radius:10px;
+background-color:#3071a9;
+outline: none;
+height: 0.5em;
+margin-top: 20px;
+
+}
+
+
+.volume{
+
+display:flex;
+justify-content: flex-end;
+align-items: center;
+
+gap:20px;
+
+}
+
+.volume-high{
+
+
+    font-size:40px;
+    margin-top: 20px;
+    color:white;
+}
+
+
+.charge{
+margin-top: 40px;
+background-color: rgba(217, 217, 217, 0.6);
+width: 8.25rem;
+border-radius: 20px;
+height:10px;
+
+}
+
+.box{
+
+    padding:0 16px;
+}
+
+
+.range{
+   
+    background-color: white;
+    width: 10px;
+    height:10px ;
+    border-radius: 20px;
+    height:10px;
+   animation: rangeaudio paused;
+}
+
+
+@keyframes rangeaudio {
+    from{
+width:10px;
+
+    }
+
+    to{
+width:18vw;
+
+    }
+}
+
+
+
+
+
+
+
+
+.subtitle{
+    text-align: center;
+width: 240px;
+
+}
+
+#musics:hover{
+
+    background-color: rgba(192, 187, 207,0.09);
+}
+
+
+.playing{
+color:#641dc1;
+
+}
+
+
+
+
+@media (min-width: 1500px){
+    .black{ --bg-url:url('./assets/bigblack.png'); 
+    
+    }}
+
+@media (min-height: 1500px){
+    .black{ --bg-url:url('./assets/bigblack.png'); 
+    
+    }}
+
+
+    .video{
+
+display: flex;
+
+
+    }
+
+.tv{
+
+    font-size: 8    0px;
+}
+
+
+
+.tvButton{
+border: none;
+background: none;
+font-size:40px;
+width: 53px;
+height: 50px;
+
+}
+
+.TV{
+
+color: white;
+padding: 5px;
+
+
+}
+
+
+.TV:hover{
+
+
+    background-color: rgba(192, 187, 207,0.2);
+    transition:background .4s;
+    border-radius: 10%;
+
+}
+
+
+
+.TV:active{
+
+
+    background-color: rgba(192, 187, 207,0.4) ;
+    transition:background .4s;
+    border-radius: 10%;
+
+}
+
+
+
+
+.principals{
+display: flex;
+
+
+flex-direction: column;
+
+}
+
+.clip{
+
+    display: none;
+}
+
+
+video{
+
+margin: auto;
+width:40rem;
+    height:auto;
+}
+
+
+.back-button{
+
+    border: none;
+background: none;
+font-size:40px;
+width: 53px;
+height: 50px;
+
+margin-left: 64px;
+}
+
+.seta{
+    color: white;
+    padding: 5px;
+
+}
+
+
+
+.seta:hover{
+
+
+    background-color: rgba(192, 187, 207,0.2);
+    transition:background .4s;
+    border-radius: 10%;
+
+}
+
+
+
+.seta:active{
+
+
+    background-color: rgba(192, 187, 207,0.4) ;
+    transition:background .4s;
+    border-radius: 10%;
+
+}
+
+#videoButton{
+padding: 25px;
+
+}
