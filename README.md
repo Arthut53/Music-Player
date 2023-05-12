@@ -3,16 +3,21 @@
 A functional music player with 3 Guns N'Roses Musics, audio control and a video mode with Sweet Child 'O Mine clip
 
 
-## Musics of the Project
 
-Sweet Child O' Mine 
 
-<a href="https://www.youtube.com/watch?v=1w7OgIMMRc4" target="_blank"> Link </a>
+<img src="./assets/caption.png">
 
-Welcome to the Jungle
+# Musics of the Project
 
-<a href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg"  target="_blank"> Link </a>
+<br>
+<h2>Sweet Child O' Mine</h2> 
 
-My Michelle
+<h3> <a href="https://www.youtube.com/watch?v=1w7OgIMMRc4" target="_blank"> Link </a></h3> 
 
-<a href="https://www.youtube.com/watch?v=scmvAg_S97k" target="_blank"> Link </a>
+<h2>Welcome to the Jungle</h2> 
+
+<h3><a href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg"  target="_blank"> Link </a></h3>
+
+<h2> My Michelle</h2> 
+
+<h3><a href="https://www.youtube.com/watch?v=scmvAg_S97k" target="_blank"> Link </a></h3>
