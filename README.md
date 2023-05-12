@@ -5,7 +5,7 @@ A functional music player with 3 Guns N'Roses Musics, audio control and a video 
 
 
 
-<img src="./assets/caption.png">
+<img src="./assets/caption.png" alt="project image">
 
 # Musics of the Project
 
