@@ -12,7 +12,28 @@
 
 
 
+::-webkit-scrollbar{
 
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+border-radius:4px;
+    background-color: #2c2c31;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background-color: #817e81;
+    border-radius: 20px;
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color: #bebebf;
+}
 
 
 body{
